@@ -1,0 +1,28 @@
+int age1,age2,age3,age4,age5,age6,age7,age8,age9,age10;
+
+An Array is a sequential collection of elements of same data type like 
+the collection of integers or collection of characters or
+collection of floating point numbers.
+Homogenous data type.
+Static data type.- shrink or expand the size of array
+
+Syantx:-
+//Declaration of array
+int array_age[10]; //datatype arrayname[size];
+
+//Initialization of array
+array_age[]={17,18,19,20,15,18,19,10,20,20};
+
+//end user input
+printf("\nEnter 10 array elements:");
+for(i=0; i<10; i++)
+{
+	scanf("%d",&array_age[i]);
+}
+
+//displaying array elementsprintf("\nArray elements are:");
+for(i=0; i<10; i++)
+{
+	printf("%d",array_age[i]);
+}
+

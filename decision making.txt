@@ -1,0 +1,18 @@
+Decision making statements - 
+
+if ladder statements:-
+Syntax:-
+
+if(condition1)
+{
+   if(condition2)
+   {
+       if(condition3)
+       {
+        // Statement of third if block 
+       }
+    // Statements of second if block
+    }
+ //Statements of first if block 
+} 
+//Statements of main()

@@ -1,0 +1,58 @@
+Average => sum of all the entities/ count of entities 
+	=> e1+e2+e3 / 3
+
+struct Student
+{
+	int roll_no;
+	char name[20];
+	float SGP[8];
+}first[80],second[60],third[60],final[60];
+
+int main()
+{
+	int i,
+	choice from end user take input student information, first, second, third, final
+	switch case1, case 2, case 3, case4
+	{	case1:
+		for => for taking the input student information from end user
+		ask end user whose roll_no SGPA you want to display
+	}
+}
+Semester Grade Point (SGP) out of 10 
+First Year [80] => roll_no, name, year, sem1, sem2
+SGP in sem1 => 7
+SGP in sem2 => 8.9
+SGP  =>sem1+sem2;
+SGPA =>SGP/2
+
+Second Year [60] => roll_no, name, year, sem1, sem2, sem3, sem4
+SGP of sem1=> 7
+SGP of sem2=> 8.9
+SGP of sem3=> 9
+SGP of sem4=> 9
+SGP  =>sem1+sem2+sem3+sem4;
+SGPA =>SGP/4
+
+Third Year [60] => roll_no, name, year
+SGP of sem1=> 7
+SGP of sem2=> 8.9
+SGP of sem3=> 9
+SGP of sem4=> 9
+SGP of sem5=> 9
+SGP of sem6=> 9
+SGP  =>sem1+sem2+sem3+sem4+sem5+sem6;
+SGPA =>SGP/6
+
+Final Year [60]
+SGP of sem1=> 7
+SGP of sem2=> 8.9
+SGP of sem3=> 9
+SGP of sem4=> 9
+SGP of sem5=> 9
+SGP of sem6=> 9
+SGP of sem7=> 9
+SGP of sem8=> 9
+SGP  =>sem1+sem2+sem3+sem4+sem5+sem6+sem7+sem8;
+SGPA =>SGP/8
+
+SGPA => sum of SGPs / count of SGPs

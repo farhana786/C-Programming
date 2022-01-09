@@ -1,0 +1,115 @@
+Control Structures - allows the programmer to control the flow
+of execution of instructions.
+=> Decision Control Structures - 1. switch case statements
+				 2. if structure -> if
+						 -> if...else
+						 -> else...if
+						 -> nested if
+						 -> if ladder
+
+=> Loop Control Structures - 
+allows the programmer to repeatedly execute the statements util
+the test condition false.
+
+1) for loop //entry controlled loop
+Syntax:-
+for(initialization of counter variable; test condition; increament/decreament counter variable)
+{
+ // Statements to be executed if test condition is true 
+}
+
+2) while loop ////entry controlled loop
+Syntax:-
+
+initialization of counter variable;
+while(test condition)
+{
+	// Statements to be executed if test condition is true
+	increament/decreament counter variable; 
+}
+
+3)do while loop //exit controlled loop
+Syntax:-
+
+initialization of counter variable;
+do
+{
+    // Statements to be executed if test condition is true
+	increament/decreament counter variable;
+}while(test condition);
+*
+**
+***
+****
+*****
+
+*****
+****
+***
+**
+*
+        
+(1)    *     =>space=4=> Total number of rows-row number=>5-1=4  
+(2)   ***    =>space=3=> Total number of rows-row number=>5-2=3
+(3)  *****   =>space=2=> Total number of rows-row number=>5-3=2
+(4) *******  =>space=1=> Total number of rows-row number=>5-4=1
+(5)********* =>space=0=> Total number of rows-row number=>5-5=0
+
+star=2*row number-1 => 2*1-1=1
+		       2*2-1=3
+		       2*3-1=5 	
+		       2*4-1=7
+    		       2*5-1=9	
+
+    *
+   **
+  ***
+ ****
+*****
+
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *  
+
+*********
+ *******
+  *****
+   ***
+    * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

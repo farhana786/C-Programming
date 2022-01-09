@@ -1,0 +1,56 @@
+Recursion:-it is the process of repeating items in a self-simillar way.
+In programming languages, if a program allows you to call a user defined function 
+inside the same function, then it is called a recursive call of the function.
+e.g.
+void rec_function();
+void main()
+{
+	rec_function();
+}
+void rec_function()
+{
+	rec_function();
+}
+
+Factorial:- 
+5! => 120 =>5*4*3*2*1
+            1*5
+            5*4
+	    20*3
+            60*2
+            120*1
+	    120
+
+int factorial(int);
+void main()
+{
+	int num,fact;
+	printf("\nEnter number:");
+	scanf("%d",&num);
+	fact=factorial(num);
+	printf("Factorial of %d is %d",num,fact);
+}
+int factorial(int n)
+{
+	return n*factorial(n-1)
+}
+
+int fibonacci(int);
+void main()
+{
+	int num,fib,i;
+	printf("\nEnter number:");
+	scanf("%d",&num);
+	printf("\nFibonacci series is:\t");
+	for(i=0; i<num; i++)
+	{
+		fib=fibonacci(i);
+		printf("%d\t",fib);
+	}
+}
+int fibonacci(int n)
+{
+	if(n==1)
+		return 1;
+	return fibonacci(n-1)+fibonacci(n-2);
+}

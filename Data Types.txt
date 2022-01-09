@@ -1,0 +1,135 @@
+Data Type:- Its a type of representating/  storing the data
+
+1) int (integer) stores the digit values in variable.
+size :- 2 bytes of memory space in 32 bit OS
+        4 bytes of memory space in 64 bit OS
+syntax:- int number1; // declaration of integer variable 'number1'
+	 number1 = 10; // initialization of variable. storing value '10'	
+%d is a format specifier which represent the integer values stored in variables.
+printf("Value stored in variable number1= %d",number1);
+
+2) float stores the decimal point values in variable.
+size:- 4 bytes of memory space 
+syntax:- float percentage; // declaration of float variable 'percentage'
+	 percentage = 90.89;
+%f is format specifier to represent the float values stored in vaiables.
+printf("%f",percentage);
+
+3)double stores the decimal point values in variable.
+size:- 8 bytes of memory space 
+syntax:- double order = 364782.8378;
+%lf is format specifier to represent the double values stored in vaiables.
+printf("%lf",order);
+
+4) char stores the alphabets, special characters e.g &,%,$,*,=
+size:- 1 byte of memory space 
+syntax:- char name = 'A';
+%c is format specifier to represent the character values stored in vaiables.
+printf("%c",name);
+
+Menu Driven Program :- allows programmer to choose any one option
+among the available options.
+
+switch...case statement :- allows us to execute one code block
+among many alternatives.
+
+syntax:-
+switch(choice)
+{
+	case 1:
+        //statements;
+        break;
+        case 2:
+        //Statements;
+        break;
+        case 3:
+        //Statements;
+        break;
+.
+.
+.
+.
+        case n:
+        //Statements;
+        break;
+}
+
+BITWISE Operators are used for manipulating data at bit level
+either 0bit or 1bit also called as bit level programming.
+input value - binary numerals
+20,12,4 etc.
+
+2^7   2^6   2^5   2^4   2^3   2^2   2^1   2^0
+128   64    32    16    8     4     2     1 
+0     0     0     1     0     1     0     0 => 20
+0     0     0     0     1     1     0     0 => 12
+
+
+
+1) AND Operator (&)
+1  1  0  0
+1  0  1  0
+__________
+1  0  0  0
+
+2)OR Operator (|)
+1  1  0  0
+1  0  1  0
+___________
+1  1  1  0
+
+3)XOR Operator (^)
+1  0  1  0
+1  0  0  1 
+___________
+1  1  0  0
+
+4) LEFT SHIFT Opearator (<<) will shift 'n' number of bits to
+the left side and '0' will be filled in right side.
+e.g. int a = 20; // 00010100 
+     int c;
+     c = a << 4; // 01000000 =>64
+
+5) RIGHT SHIFT Operator (>>) will shift 'n' number of bits to 
+the right side and '0' will be filled in left side.
+e.g.  c = a >> 2; // 00000101 =>5
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          

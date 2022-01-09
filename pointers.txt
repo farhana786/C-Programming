@@ -1,0 +1,20 @@
+Pointer:- It is a special variable which stores the address/memory locations of
+any variable.
+
+int num1=10; //Declaration of num1 integer variable
+char ch; //Declaration of ch character variable
+int *iptr; //Declaration of pointer to integer
+char *chptr; //Declaration of pointer to character
+iptr=&num1; //Store the address of num1 variable in pointer iptr
+chptr=&ch; //Store the address of ch variable in pointer chptr
+
+n1=10
+n2=5
+
+n1=5
+n2=10
+
+temp=n1;//temp=10
+n1=n2; //n1=5
+n2=temp; //n2=10
+

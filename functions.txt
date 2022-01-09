@@ -1,0 +1,28 @@
+Program:- a set of instructions to complete or perform specific task.
+e.g WAP in C to perform arithmetic operations.
+
+software:- a collection of programs
+e.g. calculator application etc.
+
+Function:- a set of instructions are written in source code / program.
+3 parts of function:-
+1) Function Declaration
+return_type function_name(parameter_list);
+void addition_op();
+
+2) Function Defination
+return_type function_name(parameter_list)
+{
+ //body of function
+}
+void addition_op()
+{
+	int num1,num2,add;
+	printf("\nEnter two numbers:");
+	scanf("%d%d",&num1,&num2);
+	add= num1+num2;
+	printf("\nAddition is: %d", add);
+}
+3) Function Call
+function_name(parameter_list);
+addition_op();

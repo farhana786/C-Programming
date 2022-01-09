@@ -1,0 +1,94 @@
+ASCII codes- abbrevated from American Standard Code for Information
+Interchange, is a character encoding standard for electronic communication
+20 => 00001010
+A-Z, a-z, @, #, % => characters and special character
+A=>65+32=> 97<=a           a=>97-32=> 65<=A
+B=>66+32=> 98<=b           b=>98-32=> 66<=B
+.
+.
+.
+.
+Z=>90+32=>122<=z   	   z=>122-32=> 90<=Z
+
+Input=> Hello World!
+Output=> hELLO wORLD!
+
+if(str[i]>=65 && str[i]<=90)
+str[i]+32
+
+char str[30]="Hello World!";
+scanf("%s",str);
+
+string.h
+1) strlen() returns length of the given string. It does not count null character \0.
+strlen(str1);
+
+2)strcpy() copies the source string in destination string,
+strcpy(destination_string,source_string)
+
+3)strcat() concatenates two strings & result is returned in first_string
+strcat(first_string, second_string);
+
+4)strcmp() compares two strings & return 0 if both strings are simillar.
+strcmp(first_string, second_string);
+e.g. Hello hello are different
+     Hello Hello are simillar
+
+5)strrev(string_name) returns reverse of the given string.
+
+6)SUBSTRING strstr() returns pointer to the first occurence of the matched string in
+the given string. It is used to return substring from first match till the end of last character
+Input:- Hello World ! C Programming!
+Output:-World ! C Programming! 
+
+char str[50] = "Hello World ! C Programming!"
+char *sub;
+sub=strstr(str,"World");
+printf("\nSubstring is %s", sub);
+
+
+copies the source string in destination string
+str1[20],str2[20]
+str2[i]=str1[i];
+str2[0]=str1[0];
+str2[1]=str1[1];
+str2[2]=str1[2];
+
+returns reverse of the given string
+str2[0]=str1[4];
+str2[1]=str1[3];
+str2[2]=str1[2];
+str2[3]=str1[1];
+str2[4]=str1[0];
+str2[5]='\0'
+
+
+concatenates two strings & result is returned in first_string
+str1[i]=str2[j];
+i++;j++;
+str1[6]=str2[1];
+str1[7]=str2[2];
+str1[8]=str2[3];
+str1[9]=str2[4];
+
+//string palindrome
+original string => RACECAR
+Reversed string => RECECAR
+--------------------------
+1) reverse the original string. (String Reverse)
+2) compare reverse string with original string.(String Compare)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
